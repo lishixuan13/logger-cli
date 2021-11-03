@@ -1,7 +1,7 @@
 {
   "name": "logger-cli",
-  "version": "1.0.1",
-  "description": "A versatile logger CLI library",
+  "version": "1.0.2",
+  "description": "a versatile logger CLI library",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -11,9 +11,23 @@
     "build": "tsc -b .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "logger",
+    "cli",
+    "loading",
+    "progress",
+    "ora"
+  ],
+  "author": "13",
   "license": "MIT",
+  "homepage": "https://github.com/lishixuan13/logger-cli.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lishixuan13/logger-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lishixuan13/logger-cli.git/issues"
+  },
   "devDependencies": {
     "@types/node": "^16.11.6",
     "@types/progress": "^2.0.5",

@@ -47,4 +47,9 @@ logger.success(`build：${logger.countTime.end()}`);
 
 logger.loading("loading ... ");
 logger.stopLoading();
+
+
+logger.silent = true // 禁用输出log
+logger.info('被关闭的log')
+logger.silent = false // 启用log
 ```
